@@ -350,9 +350,9 @@ end of filters
 
 @media screen and (width > 375px) {
 
-    .header {
-        max-inline-size: 696px;
-        margin-block-end: 100px;
+    .logo-title {
+        padding-block-start: 128px;
+
     }
 
     .subtitle {
