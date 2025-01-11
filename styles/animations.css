@@ -56,14 +56,23 @@
     border: none;
 }
 
+
+
+/*
+still needs a fix
+*/
 .like-icon .heart {
     transition: fill 0.1s;
     transform-origin: center center;
     animation: scale 0.3s ease;
 }
 
+/*
+still needs a fix
+*/
+
 .like-icon .core {
-    fill: var(--back-color);
+    fill: transparent;
     transition: fill 0.3s 5ms;
 }
 
@@ -91,7 +100,7 @@ hover animation start
 }
 
 .like-icon .main-body {
-    fill: var(--back-color);
+    fill: transparent;
     transition: fill 0.3s;
 }
 
