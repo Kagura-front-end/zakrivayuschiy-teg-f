@@ -233,7 +233,7 @@
     filter: brightness(120%) opacity(60%) contrast(120%);
 }
 
-.footer {
+.floppy-container {
     display: flex;
     justify-content: center;
 }
