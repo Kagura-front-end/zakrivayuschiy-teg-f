@@ -177,12 +177,6 @@ p + p {
   color: var(--text-color);
 }
 
-  .like-icon {
-    block-size: 36px;
-    inline-size: 39px;
-    border: none;
-  }
-
   .button:focus {
     outline: none;
   }
