@@ -231,9 +231,6 @@
 }
 
 .dialog__text-inner {
-    /*
-    font-family: 'PressStart2P-Regular', sans-serif;
-    */
     font-family: var(--accent-font);
     font-size: 14px;
     text-transform: inherit;
@@ -304,24 +301,7 @@ pseudo
 
 .button:hover::before {
     transform: scaleX(1);
-}
-
-.button-floppy:hover::before,
-.button-ok:hover::before {
     width: 100%;
-}
-
-.button-floppy::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
-    background-color: var(--text-color);
-    transition: width 0.3s ease;
-    inline-size: 100%;
-    block-size: 100%;
-    width: 0;
 }
 
 /*
