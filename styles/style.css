@@ -109,6 +109,7 @@ box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 1);
   font-variation-settings: 'wght' 700;
   font-size: 18px;
   padding: 4px 10px 6px 10px;
+  border-block-end: 2px solid var(--text-color);
 }
 
 .image-container {
@@ -125,8 +126,6 @@ box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 1);
   object-position: center;
   inline-size: 100%;
   aspect-ratio: 1 / 1;
-border-top: 2px solid var(--text-color);
-border-bottom: 2px solid var(--text-color);
 }
 
 .card p {
@@ -139,10 +138,8 @@ border-bottom: 2px solid var(--text-color);
   padding: 25px;
   display: flex;
   flex-direction: column;
-}
-
-p + p {
-  margin-top: 25px;
+  border-block-start: 2px solid var(--text-color);
+  gap: 25px;
 }
 
 .button {
@@ -194,7 +191,7 @@ p + p {
     right: 10px;
     top: 10px;
     z-index: 3;
-    opacity: 0.9;
+    opacity: 0.5;
     color: var(--text-color);
     font-family: var(--accent-font);
     font-size: 14px;
@@ -258,7 +255,7 @@ p + p {
 }
 
 .dialog::backdrop {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.75);
 }
 
 .dialog .dialog-inner {
