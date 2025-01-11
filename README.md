@@ -1,3 +1,3 @@
 https://github.com/Kagura-front-end/zakrivayuschiy-teg-f.git    
 
-/* test */
+https://kagura-front-end.github.io/zakrivayuschiy-teg-f/
